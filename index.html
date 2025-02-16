@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero-navigation">
+        <div><a href="#home">Home</a></div>
+        <div><a href="#about">About</a> </div>
+        <div><a href="#portfolio">Projects</a> </div>
+        <div><a href="#contact">Contact</a></div>
+    </div>
+    <div class="hero" id="home">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p id="typewriter"></p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+        <canvas id="starCanvas"></canvas>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2 class="animate">About Me</h2>
+        <div class="about-content animate">
+            <p class="w-50">Hi, I’m Fadhil Muhammad Akbar, a Web Developer passionate about building functional websites. With experience in front-end development, and back-end development, I strive to deliver solutions that solve real problems </p>
+        </div>
+        <div class="about-skills">
+            <img src="imgs/html-icon.png" alt="html-icon" class="icon-animate">
+            <img src="imgs/css-icon.png" alt="css-icon" class="icon-animate">
+            <img src="imgs/js-icon.png" alt="js-icon" class="icon-animate">
+            <img src="imgs/jquery-icon.png" alt="jquery-icon" class="icon-animate">
+            <img src="imgs/laravel-icon.png" alt="laravel-icon" class="icon-animate">
+            <img src="imgs/vue-js-icon.png" alt="vue-js-icon" class="icon-animate">
+            <img src="imgs/mysql-icon.png" alt="mysql-icon" class="icon-animate">
+        </div>
+        
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2 class="animate">My Projects</h2>
+        <div class="projects">
+            <a href="project1.html" class="project animate">
+                <img src="imgs/projects/Absensi.PNG" alt="Project 1">
+                <h3>Absence Application</h3>
+                <p>
+                    Attendance application that functions to retrieve data from the attendance tool. The data is then exported in Excel format
+                </p>
+            </a>
+            <a href="project2.html" class="project animate">
+                <img src="imgs/projects/Accounting-blur-1.png" alt="Project 2">
+                <h3>Accounting Application</h3>
+                <p>Accounting application with general ledger output in excel format</p>
+            </a>
+            <a href="project3.html" class="project animate">
+                <img src="imgs/projects/hargaSatuan-blur-1.png" alt="Project 2">
+                <h3>Unit Price Application</h3>
+                <p>The unit price application is an application for storing a unit price database and can be seen by all users</p>
+            </a>
+            <a href="project4.html" class="project animate">
+                <img src="imgs/projects/Peralatan-blur-1.png" alt="Project 2">
+                <h3>Inventory Application</h3>
+                <p>
+                    This inventory application was created to meet the needs for storing field equipment databases and managing the equipment borrowing process..
+                </p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="animate">Contact Me</h2>
+        <form class="animate">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Fadhil Muhammad Akbar. All rights reserved.</p>
+        <div class="footer-icon">
+            <a href="https://www.linkedin.com/in/fadhilmuhakb/">
+            <img src="imgs/icons8-linkedin-500.png" alt="linkedin">
+            </a>
+            <a href="https://github.com/fadhilmuhakb">
+            <img src="imgs/icons8-github-500.png" alt="linkedin">
+            </a>
+            <a href="https://dribbble.com/fadhilmuhakb">
+                <img src="imgs/icons8-dribble-384.png" alt="dribble">
+            </a>
+            <a href="mailto:fadhilmuhakb@gmail.com">
+                <img src="imgs/icons8-gmail-500.png" alt="gmail">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
